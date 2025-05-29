@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/CPBL.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="icon" href="image/CPBL.png" type="image/png" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+        <title>&#x4E2D;&#x4FE1;&#x5144;&#x5F1F;</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="image/CPBL.png" alt="CPBL" class="img-fluid" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active px-3 " aria-current="page" href="index.html">
+                                <span class="nav-text">首頁</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 " href="standing.html">
+                                <span class="nav-text">球隊戰績</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown position-relative">
+                            <div class="d-flex align-items-center">
+                                <a class="nav-link px-3 " href="teams.html">
+                                    <span class="nav-text">隊伍介紹</span>
+                                </a>
+                            </div>
+
+                            <ul class="dropdown-menu custom-dropdown">
+                                <li><a class="dropdown-item" href="teams-unilions.html">統一獅</a></li>
+                                <li><a class="dropdown-item" href="teams-brothers.html">中信兄弟</a></li>
+                                <li><a class="dropdown-item" href="teams-fubon.html">富邦悍將</a></li>
+                                <li><a class="dropdown-item" href="teams-rakuten.html">樂天桃猿</a></li>
+                                <li><a class="dropdown-item" href="teams-dragons.html">味全龍</a></li>
+                                <li><a class="dropdown-item" href="teams-tsghawks.html">台鋼雄鷹</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="container my-5">
+        <div class="card border border-secondary-subtle rounded-4 shadow teamsintro">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-4 text-center p-4 bg-white rounded-start-4">
+                    <img src="image/Logo_brothers.png" class="img-fluid mb-3" style="max-height: 180px;" alt="中信兄弟隊徽">
+                    <h3 class="fw-bold mt-2">中信兄弟</h3>
+                </div>
+                <div class="col-md-8 p-5 mt-4">
+                    <div class="team-info-row">
+                        <div class="team-info-col-bro">
+                            <div class="team-info-title">成立時間：</div>
+                            <div class="team-info-content">1990 ~ 至今</div>
+                        </div>
+                        <div class="team-info-col-bro">
+                            <div class="team-info-title">主場：</div>
+                            <div class="team-info-content">臺中洲際棒球場</div>
+                        </div>
+                    </div>
+
+                    <div class="team-info-row">
+                        <div class="team-info-col-bro">
+                            <div class="team-info-title">總教練：</div>
+                            <div class="team-info-content">平野恵一</div>
+                        </div>
+                        <div class="team-info-col-bro">
+                            <div class="team-info-title">季冠軍：</div>
+                            <div class="team-info-content">19次</div>
+                        </div>
+                    </div>
+
+                    <div class="team-info-row">
+                        <div class="team-info-col-bro">
+                            <div class="team-info-title">年度總冠軍：</div>
+                            <div class="team-info-content">10次</div>
+                        </div>
+                    </div>
+
+                    <h5 class="mt-5" style="color: #6c757d; font-weight:600;">官方網站</h5>
+                    <a href="http://www.brothers.tw/" class="team-link" target="_blank">
+                        http://www.brothers.tw/
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container standing">
+        <div class="d-flex align-items-end p-2">
+            <h3 class="mt-3 me-3" style="font-weight: 900; font-family: 微軟正黑體;">近10場成績</h3>
+        </div>
+        <hr class="mt-1">
+    </div>
+    <div class="container standing mb-3 mt-2">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <table class="table text-center align-middle mx-auto shadow-sm p-3 mb-5 mt-4 bg-body-tertiary rounded fw-bold"
+                       style="font-size: 18px; max-width: 1400px;">
+                    <thead class="table-dark shadow-sm">
+                        <tr>
+                            <th class="py-3">場次</th>
+                            <th class="py-3">日期</th>
+                            <th class="py-3">對手</th>
+                            <th class="py-3">比分</th>
+                            <th class="py-3">勝/負</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="rank-cell-num">125</td>
+                            <td>2025/5/28</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/台鋼.png" alt="" class="team-logo">
+                                    台鋼雄鷹
+                                </div>
+                            </td>
+                            <td>2 : 3</td>
+                            <td>
+                                <span class="text-danger">L</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="rank-cell-num">123</td>
+                            <td>2025/5/27</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/台鋼.png" alt="" class="team-logo">
+                                    台鋼雄鷹
+                                </div>
+                            </td>
+                            <td>4 : 3</td>
+                            <td><span class="text-success">W</span></td>
+                        </tr>
+                        <tr>
+                            <td class="rank-cell-num">121</td>
+                            <td>2025/5/25</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/統一.png" alt="" class="team-logo">
+                                    統一獅
+                                </div>
+                            </td>
+                            <td>6 : 4</td>
+                            <td>
+                                <span class="text-success">W</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="rank-cell-num">117</td>
+                            <td>2025/5/24</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/統一.png" alt="" class="team-logo">
+                                    統一獅
+                                </div>
+                            </td>
+                            <td>7 : 4</td>
+                            <td><span class="text-success">W</span></td>
+                        </tr>
+                        <tr>
+                            <td class="rank-cell-num">114</td>
+                            <td>2025/5/23</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/統一.png" alt="" class="team-logo">
+                                    統一獅
+                                </div>
+                            </td>
+                            <td>4 : 1</td>
+                            <td><span class="text-success">W</span></td>
+                        </tr>
+                        <tr>
+                            <td class="rank-cell-num">113</td>
+                            <td>2025/5/22</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/富邦.png" alt="" class="team-logo">
+                                    富邦悍將
+                                </div>
+                            </td>
+                            <td>9 : 3</td>
+                            <td><span class="text-success">W</span></td>
+                        </tr>
+                        <tr>
+                            <td class="rank-cell-num">108</td>
+                            <td>2025/5/18</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/樂天.png" alt="" class="team-logo">
+                                    樂天桃猿
+                                </div>
+                            </td>
+                            <td>9 : 7</td>
+                            <td><span class="text-success">W</span></td>
+                        </tr>
+                        <tr>
+                            <td class="rank-cell-num">105</td>
+                            <td>2025/5/17</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/樂天.png" alt="" class="team-logo">
+                                    樂天桃猿
+                                </div>
+                            </td>
+                            <td>6 : 12</td>
+                            <td><span class="text-danger">L</span></td>
+                        </tr>
+                        <tr>
+                            <td class="rank-cell-num">102</td>
+                            <td>2025/5/16</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/樂天.png" alt="" class="team-logo">
+                                    樂天桃猿
+                                </div>
+                            </td>
+                            <td>4 : 5</td>
+                            <td><span class="text-danger">L</span></td>
+                        </tr>
+                        <tr>
+                            <td class="rank-cell-num">97</td>
+                            <td>2025/5/14</td>
+                            <td>
+                                <div class="team-cell">
+                                    <img src="image/味全.png" alt="" class="team-logo">
+                                    味全龍
+                                </div>
+                            </td>
+                            <td>1 : 0</td>
+                            <td><span class="text-success">W</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <img src="image/CPBL.png" alt="CPBL Logo" style="height: 80px;">
+                <div class="text-end flex-grow-1">
+                    <p class="mb-0">
+                        焦點活動：
+                        <a href="https://www.facebook.com/heartbaseball?fref=ts" target="_blank" class="text-white text-decoration-none ms-3 icon-fb">
+                            <i class="fa-brands fa-facebook fa-2xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com/cpbl_official/?hl=zh-tw" target="_blank" class="text-white text-decoration-none ms-3 icon-ig">
+                            <i class="fa-brands fa-instagram fa-2xl"></i>
+                        </a>
+                        <a href="https://www.youtube.com/user/CPBLofficial" target="_blank" class="text-white text-decoration-none ms-3 icon-yt">
+                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr class="border-light mt-0 w-90 mx-auto">
+        <p class="text-center mb-0">&copy; 1123828郭江瑋的朋友所有
+    </footer>
+    
+<!-- Visual Studio Browser Link -->
+<script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestId="23867a3a58b54298b6b159125d9650e3" data-requestMappingFromServer="false" data-connectUrl="http://localhost:57491/65489de659144cf9858463e5a8ce716e/browserLink"></script>
+<!-- End Browser Link -->
+<script src="/_framework/aspnetcore-browser-refresh.js"></script></body>
+</html>

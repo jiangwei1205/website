@@ -1,0 +1,302 @@
+.navbar-brand img{
+    height: 60px;
+}
+.navbar-nav .nav-link{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size:large;
+    font-family: 微軟正黑體;
+}
+.navbar-nav .nav-item {
+    margin-right: 12px;
+}
+.nav-link {
+    color: #333333;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 3px;
+        background-color: #014080;
+        transition: width 0.3s ease, left 0.3s ease;
+        border-radius: 1.5px;
+}
+.nav-link:hover {
+        color: #014080;
+}
+.nav-link:hover::after {
+       left: 0;
+       width: 100%;
+}
+.nav-link.active {
+        color: #014080 !important;
+}
+.nav-link.active::after {
+     width: 0;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+.nav-item .dropdown-menu {
+    display: none;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    transition: all 0.3s ease; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(10px); 
+    opacity: 0; 
+    pointer-events: none;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+.dropdown-item {
+    transition: background-color 0.2s ease, padding-left 0.2s ease;
+}
+.dropdown-item:hover {
+    background-color: #014080;
+    color: white;
+    padding-left: 1.5rem;
+}
+.card {
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+    .card:hover {
+        transform: translateY(-8px) scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+
+.match-date {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.team-logo {
+    height: 30px;
+    width: auto;
+}
+
+.team-name, .vs {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+}
+.container.video {
+    margin-top: 30px;
+}
+.container.standing {
+    margin-top: 40px;
+}
+.more a {
+    color: #808080;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: none;
+}
+
+.more a h5,
+.more a i {
+        transition: color 0.3s ease;
+}
+
+.more a:hover h5,
+.more a:hover i {
+        color: #014080 !important;
+}
+
+.more a:hover h5 {
+        font-weight: 600;
+}
+.container standing {
+    margin-top: 20px;
+}
+.thead-shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    position: relative;
+}
+.team-cell {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 12px;
+    height: 100%; 
+}
+
+.team-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    display: block;
+}
+
+.rank-cell {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+td {
+    vertical-align: middle !important;
+}
+tbody tr {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+tbody tr:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.icon-fb i,
+.icon-ig i,
+.icon-yt i {
+    transition: all 0.2s ease;
+    color: #cccccc; 
+}
+
+.icon-fb:hover i {
+    color: #74c0fc; 
+    transform: translateY(-5px);
+}
+
+.icon-ig:hover i {
+    color: #e1306c; 
+    transform: translateY(-5px);
+}
+
+.icon-yt:hover i {
+    color: #ff0000; 
+    transform: translateY(-5px);
+}
+.w-90 {
+    width: 90% !important;
+}
+.team-logo-hover {
+    transition: transform 0.05s ease;
+}
+
+.team-logo-hover:hover {
+        transform: translateY(-5px) scale(1.05);
+}
+.teamsintro {
+    transform: none !important;
+}
+.team-info-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.team-info-col {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    border-left: 4px solid #ff8000;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+}
+
+.team-info-title {
+    color: #6c757d;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    white-space: nowrap;
+}
+
+.team-info-content {
+    color: #212529;
+    font-weight:bold;
+}
+a.team-link {
+    font-weight: bold;
+    color: #000; 
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a.team-link:hover {
+        color: #014080;
+        font-weight: bold;
+}
+.team-info-col-bro {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    border-left: 4px solid #FFCC00;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+}
+.team-info-col-fubon {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    border-left: 4px solid #005BAC;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+}
+.team-info-col-raku {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    border-left: 4px solid #BE0032;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+}
+.team-info-col-dragon {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    border-left: 4px solid #C8102E;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+}
+.team-info-col-tsg {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    border-left: 4px solid #005242;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+}
+.rank-cell-num {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
